@@ -1,0 +1,21 @@
+{
+  "name": "jekyll-tachyons",
+  "version": "1.0.0",
+  "description": "A simple Tachyons Jekyll boilerplate",
+  "main": "index.html",
+  "dependencies": {
+    "tachyons-type-scale": "^6.0.4"
+  },
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons src/styles.css > css/styles.css",
+    "build:minify": "tachyons src/styles.css -m > css/styles.min.css",
+    "build:watch": "watch 'npm run build' ./src/"
+  },
+  "author": "Hugo Bessa <eu@hugobessa.com.br>",
+  "license": "MIT"
+}
