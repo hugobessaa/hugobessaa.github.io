@@ -1,1 +1,9 @@
-@import "tachyons-type-scale"
+@import "tachyons";
+@import "tachyons-flexbox";
+@import "./post.css";
+@import "./syntax.css";
+
+* {
+  word-break: break-word;
+}
+

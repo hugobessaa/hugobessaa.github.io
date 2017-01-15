@@ -2637,9 +2637,21 @@ tachyons-cli@^1.0.10:
     single-trailing-newline "^1.0.0"
     tachyons-build-css "^1.1.2"
 
+tachyons-flexbox@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/tachyons-flexbox/-/tachyons-flexbox-2.0.4.tgz#69aa6469bdcba012de5dc29eecd1ac8476eff024"
+
+tachyons-skins@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/tachyons-skins/-/tachyons-skins-4.0.3.tgz#0987b170748a8dc533b996821a18d7411b899772"
+
 tachyons-type-scale@^6.0.4:
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/tachyons-type-scale/-/tachyons-type-scale-6.0.4.tgz#37f8bcd4fef64698f49d49acf791f4718604f0ba"
+
+tachyons@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.6.1.tgz#723d3f2346191619446187f244edf7084bbfc963"
 
 tar-fs@^1.13.0:
   version "1.15.0"

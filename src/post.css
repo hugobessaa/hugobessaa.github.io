@@ -1,0 +1,77 @@
+.post {
+  line-height: 1.4;
+}
+
+.post a {
+  color: #357edd;
+}
+
+.post a:hover,
+.post a:focus {
+  text-decoration: underline;
+}
+
+.post a strong {
+  color: inherit;
+}
+
+.post img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+.post table {
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 85%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+.post td,
+.post th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+
+.post th {
+  text-align: left;
+}
+
+.post tbody tr:nth-child(odd) td,
+.post tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+.post code {
+  white-space: pre-wrap;
+}
+
+.post code,
+.post pre {
+  background-color: #eee;
+}
+
+.post pre code {
+  padding: 0;
+  white-space: pre;
+}
+
+.post .highlight {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.post pre.highlight {
+  overflow-x: auto;
+  word-break: initial;
+}
+
+
+.post pre.highlight * {
+  word-break: initial;
+}

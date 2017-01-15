@@ -2,4 +2,66 @@
 layout: default
 ---
 
-<h1 class="f-headline">Jekyll Tachyons</h1>
+<header class='black pa3'>
+  <div class='mb3'>
+    <h1 class='f2 di bg-light-yellow'>Hugo Bessa 👨🏻‍💻</h1>
+  </div>
+
+  <ul class='list ma0 pa0'>
+    <li class='mb2'>Desenvolvedor front-end com foco em simplicidade.</li>
+    <li>Morando em Santos, SP.</li>
+  </ul>
+</header>
+
+<section class='black pa3'>
+  <header class='mb3'>
+    <h2 class='di bg-lightest-blue'>Artigos favoritos</h2>
+  </header>
+
+  <ul class='list ma0 pa0 flex flex-wrap items-start justify-between'>
+    {% for post in site.posts %}
+      {% if post.favorite %}
+      <li class='w-50'>
+        <article class='mb2'>
+          <h3 class='di bg-light-gray'>
+            <a class='link black dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
+          </h3>
+        </article>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+<section class='black pa3'>
+  <header class='mb3'>
+    <h2 class='di bg-lightest-blue'>Todos</h2>
+  </header>
+
+  <ul class='list ma0 pa0'>
+    {% for post in site.posts %}
+      <li>
+        <article class='mb3'>
+          <h3 class='f4 normal underline'>
+            <a class='link black dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
+          </h3>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<footer class='black pa3'>
+  <div class='mb3'>
+    <h2 class='f3 di bg-light-gray'>Contato</h2>
+  </div>
+
+  <ul class='list ma0 pa0'>
+    <li class='mb2'>https://twitter.com/hugobessaa</li>
+    <li>eu@hugobessa.com.br</li>
+  </ul>
+
+  <div class='mt4 pv2'>
+    <span class='bg-light-yellow'>Copyleft</span>
+  </div>
+</footer>
