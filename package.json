@@ -4,7 +4,8 @@
   "description": "A simple Tachyons Jekyll boilerplate",
   "main": "index.html",
   "dependencies": {
-    "tachyons-type-scale": "^6.0.4"
+    "tachyons-type-scale": "^6.0.4",
+    "watch": "^1.0.1"
   },
   "devDependencies": {
     "tachyons-cli": "^1.0.10"
