@@ -13,37 +13,18 @@ layout: default
   </ul>
 </header>
 
-<section class='black pa3'>
+<section class='black pa3 mt3'>
   <header class='mb3'>
-    <h2 class='di bg-lightest-blue'>Artigos favoritos</h2>
-  </header>
-
-  <ul class='list ma0 pa0 flex flex-wrap items-start justify-between'>
-    {% for post in site.posts %}
-      {% if post.favorite %}
-      <li class='w-50 w-100-ns'>
-        <article class='mb2'>
-          <h3 class='di bg-light-gray'>
-            <a class='link black dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
-          </h3>
-        </article>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section class='black pa3'>
-  <header class='mb3'>
-    <h2 class='di bg-lightest-blue'>Todos</h2>
+    <h2 class='di bg-lightest-blue'>Artigos ✏️</h2>
   </header>
 
   <ul class='list ma0 pa0'>
     {% for post in site.posts %}
-      <li>
-        <article class='mb3'>
-          <h3 class='f4 normal underline'>
+      <li class='mb4'>
+        <article class=''>
+          <h3 class='f4 normal'>
             <a class='link black dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
+            {% if post.favorite %}⚡️{% endif %}
           </h3>
         </article>
       </li>
@@ -53,7 +34,7 @@ layout: default
 
 <footer class='black pa3'>
   <div class='mb3'>
-    <h2 class='f3 di bg-light-gray'>Contato</h2>
+    <h2 class='f3 di bg-lightest-blue'>Contato</h2>
   </div>
 
   <ul class='list ma0 pa0'>
