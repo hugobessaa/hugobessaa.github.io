@@ -1,0 +1,4 @@
+# services to start using `yarn start`
+yarn run build:watch
+yarn run jekyll:serve
+yarn run browser-sync

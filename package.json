@@ -4,6 +4,7 @@
   "description": "A simple Tachyons Jekyll boilerplate",
   "main": "index.html",
   "dependencies": {
+    "lil-pids": "^2.5.0",
     "tachyons": "^4.6.1",
     "tachyons-flexbox": "^2.0.4",
     "tachyons-skins": "^4.0.3",
@@ -14,11 +15,14 @@
     "tachyons-cli": "^1.0.10"
   },
   "scripts": {
-    "start": "npm run build:watch",
+    "start": "lil-pids ./start",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/styles.css > css/styles.css",
     "build:minify": "tachyons src/styles.css -m > css/styles.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
+    "build:watch": "watch 'npm run build' ./src/",
+    "jekyll:serve": "jekyll serve",
+    "jekyll:build": "jekyll build",
+    "browser-sync": "browser-sync start --proxy localhost:4000 --files=./_site/**/* --reload-delay=300"
   },
   "author": "Hugo Bessa <eu@hugobessa.com.br>",
   "license": "MIT"
