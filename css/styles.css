@@ -891,7 +891,7 @@ img { max-width: 100%; }
 .order-7 { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
 .order-8 { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
 .order-last { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
-.post { line-height: 1.4; }
+.post { font-size: 1.2rem; line-height: 1.5; }
 .post a { color: #357edd; }
 .post a:hover, .post a:focus { text-decoration: underline; }
 .post a strong { color: inherit; }

@@ -5,21 +5,21 @@ layout: default
 <article>
   <header class='black pa3'>
     <div class='mb4'>
-      <h2 class='f4 di bg-light-yellow'>
+      <h2 class='f4 di'>
         <a class='link black dim' href='{{site.url}}/'>
           Hugo Bessa 👨🏻‍💻
         </a>
       </h2>
     </div>
     <div class='mb2'>
-      <h1 class='f3 di bg-lightest-blue'>
-        <a class='link black dim' href='{{site.url}}{{page.url}}'>
+      <h1 class='f3 di'>
+        <a class='link blue dim' href='{{site.url}}{{page.url}}'>
           {{page.title}}
         </a>
       </h1>
     </div>
     <div>
-      <time class="di bg-light-gray" datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%d/%m/%Y" }}</time>
+      <time class="di mid-gray" datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%d/%m/%Y" }}</time>
     </div>
   </header>
 
