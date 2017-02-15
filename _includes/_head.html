@@ -12,4 +12,12 @@
   <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{site.url}}/css/styles.min.css">
+
+  <!-- open graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+  {% if page.url %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
 </head>
