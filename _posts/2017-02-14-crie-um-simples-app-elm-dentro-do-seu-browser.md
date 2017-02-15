@@ -23,7 +23,7 @@ Outra coisa legal do Ellie é que você pode compartilhar o código que você
 escreveu com uma URL única. Ou até adicioná-lo à uma página web como um embed!
 👇
 
-<div class="aspect-ratio aspect-ratio--4x3">
+<div class="aspect-ratio aspect-ratio--4x3 overflow-hidden">
   <iframe class="aspect-ratio--object bn" src="https://embed.ellie-app.com/pckZfVrYWza1/0" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </div>
 
