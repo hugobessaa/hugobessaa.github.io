@@ -6,6 +6,7 @@ poderosa"
 image: /public/images/posts/composition/component-composition-hero.png
 date:   2016-07-01 17:42
 favorite: true
+redirect_from: /2016/07/01/composicao-componentes/
 ---
 
 Composição de funções, na matemática, é a aplicação de uma função sobre o valor

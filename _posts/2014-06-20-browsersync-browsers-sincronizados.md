@@ -3,6 +3,7 @@ layout: post
 title:  "BrowserSync: browsers sincronizados"
 description: "A web pode ser acessada de cada vez mais dispositivos. BrowserSync nos ajuda a realizar testes sincronizados em dezenas de browsers."
 date:   2014-6-20 11:07:00
+redirect_from: /2014/06/20/browsersync-browsers-sincronizados/
 ---
 
 Cada vez mais dispositivos diferentes acessam a web. Celulares, tablets, notebooks, geladeiras, carros, desktops, TVs. A lista continua apenas crescendo.

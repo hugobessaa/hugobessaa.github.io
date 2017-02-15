@@ -4,6 +4,7 @@ title:  "Capturando screenshots com o Pageres"
 description: "Usando o Pageres, conseguimos capturar screenshots de nossos projetos em diversas resoluções, de forma automatizada"
 date:   2014-7-12 10:12:00
 category: dev
+redirect_from: /dev/2014/07/12/capturando-screenshots-com-o-pageres/
 ---
 
 De vez em quando surge a necessidade de capturar screenshots de um projeto. O **Pageres** é uma ferramenta bem simples para você automatizar este processo. Apenas definindo uma url, ele é capaz de capturar uma página inteira.

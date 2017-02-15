@@ -3,6 +3,7 @@ layout: post
 title: "Newsletter #1: Criando produtos de qualidade"
 description: "Validar ideias, se questionar e trabalhar em conjunto são coisas essenciais."
 date:   2014-11-21 02:44:00
+redirect_from: /2014/11/21/newsletter-1-criando-produtos-de-qualidade/
 ---
 
 Essa foi a primeira newsletter enviada para quem se inscreveu para receber minhas dicas de leitura.

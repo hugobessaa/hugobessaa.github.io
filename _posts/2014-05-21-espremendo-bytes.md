@@ -4,6 +4,7 @@ title:  "Espremendo bytes"
 description: "Ninguém gosta de ficar esperando, principalmente quando o tempo que temos para gastar está dentro de um ônibus, entre o ponto A e o ponto B"
 date:   2014-5-21 1:20:00
 category: dev
+redirect_from: /dev/2014/05/21/espremendo-bytes/
 ---
 
 Ninguém gosta de ficar esperando, principalmente quando o tempo que temos para gastar está dentro de um ônibus, entre o ponto A e o ponto B. Então, o tempo entre acessar um link e de fato consumir seu conteúdo deve ser o menor possível.

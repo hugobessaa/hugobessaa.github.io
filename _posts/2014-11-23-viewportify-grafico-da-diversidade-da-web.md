@@ -2,6 +2,7 @@
 layout: post
 title: "Viewportify, um gráfico da diversidade da web"
 date:   2014-11-21 02:44:00
+redirect_from: /2014/11/21/viewportify-grafico-da-diversidade-da-web/
 ---
 
 Desenvolver para Web é algo fantástico para mim. As possibilidades que existem em uma plataforma tão distribuída e acessível são enormes. A diversidade da Web é algo lindo. 

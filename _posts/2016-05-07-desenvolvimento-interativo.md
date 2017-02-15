@@ -4,6 +4,7 @@ title: "Desenvolvimento interativo"
 description: "Uma história de como comecei com desenvolvimento interativo e quais suas vantagens"
 date:   2016-05-07 04:09:00
 favorite: true
+redirect_from: /2016/05/07/desenvolvimento-interativo/
 ---
 
 Nos últimos projetos de desenvolvimento de interface que trabalhei havia uma

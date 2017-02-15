@@ -4,6 +4,7 @@ title:  'Um ano como desenvolvedor front-end'
 date:   2014-4-9 01:17:00
 category: pessoal
 draft: true
+redirect_from: /pessoal/2014/04/08/um-ano-como-desenvolvedor-front-end/
 ---
 
 19 de abril de 2013. Este foi o dia que eu entrei no mundo front-end. Já faz um ano que eu escrevi o meu primeiro byte de código como um desenvolvedor profissional e muitas coisas já mudaram.

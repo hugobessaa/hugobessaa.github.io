@@ -4,6 +4,7 @@ title: "Minha lista de leitura"
 byline: "A lista de leitura de um desenvolvedor front-end"
 description: "Livros que li este ano sobre estratégia digital, JavaScript e empresas, além de alguns que ainda quero ler"
 date:   2014-9-27 12:42:00
+redirect_from: /2014/09/27/minha-lista-de-leitura/
 ---
 
 Apesar de livros existirem há centenas de anos, eles ainda são uma incrível forma de ensinar, aprender e se divertir. Eu tenho lido bastante este ano e gostaria de compartilhar alguns dos títulos que devorei e os que ainda planejo ler, indo dos que falam sobre estratégia digital até JavaScript para humanos.

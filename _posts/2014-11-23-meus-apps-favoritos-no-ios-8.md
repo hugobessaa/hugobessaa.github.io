@@ -3,6 +3,7 @@ layout: post
 title: "Meus apps favoritos no iOS 8"
 date:   2014-12-06 01:41:00
 category: ios
+redirect_from: /ios/2014/12/06/meus-apps-favoritos-no-ios-8/
 ---
 
 Desde que o iOS 8 chegou, tenho aproveitado bastante uma boa parte das suas funções. Para mim, as novas extensões e os apps na seção "Today" da Central de Notificações são as melhores adições da atualização. Depois de algumas semanas usando o iOS 8, eis uma lista com os apps meus favoritos:

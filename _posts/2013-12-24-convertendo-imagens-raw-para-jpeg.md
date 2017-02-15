@@ -6,6 +6,7 @@ header-image:
   alt: "MacBook Pro Retina mostrando o site de Hugo Bessa"
 date:   2013-12-24 12:45:00
 category: shell
+redirect_from: /shell/2013/12/24/convertendo-imagens-raw-para-jpeg/
 ---
 
 Apesar de conhecer apenas um pouco sobre fotografia, gosto de brincar com minha Nikon D3200 de vez em quando. Uma festa de casamento aqui, passeio no parque ali e algumas fotos da minha namorada acolá, vou clicando uma coisa de cada vez.

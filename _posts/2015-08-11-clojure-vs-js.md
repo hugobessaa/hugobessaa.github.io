@@ -4,6 +4,7 @@ title: "Clojure vs. JavaScript"
 description: "Um pequeno exemplo da diferença entre as linguagens"
 date:   2015-8-11 07:40:00
 category: clojure
+redirect_from: /clojure/2015/08/11/clojure-vs-js/
 ---
 
 Atualmente tenho estudado [Clojure](http://clojure.org/), uma linguagem de programação funcional

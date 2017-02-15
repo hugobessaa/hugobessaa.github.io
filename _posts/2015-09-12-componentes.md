@@ -5,6 +5,7 @@ description: ""
 date:   2015-9-25 09:30:00
 category: dev
 favorite: true
+redirect_from: /dev/2015/09/25/componentes/
 ---
 
 Muitos estão falando sobre componentes: unidades de funcionalidade que podem ser reutilizadas por toda uma interface, como botões e menus no Bootstrap. Toda a comunidade está procurando uma solução definitiva para esse problema. Temos coisas tão simples quanto o [module pattern](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html) até [diretivas](https://docs.angularjs.org/guide/directive) do Angular. Temos também aquela incrivelmente complexa e nunca acabada especificação: Web Components.

@@ -4,6 +4,7 @@ title: "Performance em animações"
 description: "Palestra sobre performance em animações CSS, mostrando vantagens de usar Composite Layers"
 date:   2015-2-11 01:20:00
 favorite: true
+redirect_from: /2015/02/11/performance-em-animacoes/
 ---
 
 No primeiro Meetup CSS SP de 2015, eu apresentei uma palestra sobre Performance em Animações. Ela foca bastante em mostrar o que acontece em cada frame de uma animação e quais técnicas utilizar ou evitar para manter animações rápidas.

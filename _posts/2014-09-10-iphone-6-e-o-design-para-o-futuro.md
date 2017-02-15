@@ -3,6 +3,7 @@ layout: post
 title: "iPhone 6 e o design para o futuro"
 description: "O iPhone 6 chegou com resoluções de tela nova. Nossos sites responsivos estão preparados?"
 date:   2014-9-10 00:43:00
+redirect_from: /2014/09/10/iphone-6-e-o-design-para-o-futuro/
 ---
 
 O mais novo iPhone chegou, com uma grande quantidade de funcionalidades novas e coisas interessantes. Porém, uma me chamou a atenção: a resolução das telas. A Apple disse adeus aos famosíssimos 320 pixels de largura do iPhone, que recebeu uma tela de alta-resolução com 3 vezes a densidade normal. Nossos sites estão preparados para isso?

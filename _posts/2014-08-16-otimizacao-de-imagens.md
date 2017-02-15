@@ -3,6 +3,7 @@ layout: post
 title:  "Otimização de imagens"
 description: "Imagens são uma das partes mais pesadas de um site. Otimize seu site usando ferramentas para diminuir o peso de suas imagens"
 date:   2014-8-30 03:11:00
+redirect_from: /2014/08/30/otimizacao-de-imagens/
 ---
 
 Imagens são uma das partes mais pesadas de um site, principalmente na era das telas de alta-resolução. Otimizá-las pode ser a linha que divide um site lento de um site rápido.

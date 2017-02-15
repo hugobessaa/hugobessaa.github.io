@@ -3,11 +3,11 @@ author: Hugo Bessa
 email: eu@hugobessaa.com.br
 description: Site pessoal do Hugo Bessa
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://hugobessa.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hugobessaa
 github_username:  hugobessaa
 language: "pt-br"
-permalink: pretty
+permalink: /:title/
 
 # Build settings
 markdown: kramdown

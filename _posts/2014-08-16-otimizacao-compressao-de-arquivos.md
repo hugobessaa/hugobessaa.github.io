@@ -3,6 +3,7 @@ layout: post
 title:  "Compressão de arquivos"
 description: "Uma das melhores técnicas para otimizar seu site é comprimir seus arquivos e utilizar gzip"
 date:   2014-8-16 13:44:00
+redirect_from: /2014/08/16/otimizacao-compressao-de-arquivos/
 ---
 
 Para iniciar a [série sobre otimização de sites]({{ site.baseurl }}/posts/introducao-a-otimizacao), quero falar sobre **compressão de arquivos**. Esta é uma das formas clássicas de diminuir o tamanho das suas páginas.

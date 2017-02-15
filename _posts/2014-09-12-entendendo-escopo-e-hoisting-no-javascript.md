@@ -3,6 +3,7 @@ layout: post
 title: "Entendendo escopo e hoisting no JavaScript"
 description: "Dominar o conceito de escopo e entender variable hoisting é essencial"
 date:   2014-9-13 13:34:00
+redirect_from: /2014/09/13/entendendo-escopo-e-hoisting-no-javascript/
 ---
 
 *Variable hoisting* é o procedimento do JavaScript que move declarações para o topo de seus escopos atuais. Por não ser explícito, desconhecer como isso funciona pode trazer boas dores de cabeça.

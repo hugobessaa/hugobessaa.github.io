@@ -3,6 +3,7 @@ layout: post
 title:  "Introdução a otimização"
 description: "Sites lentos prejudicam imensamente a experiência dos usuários. Afinal, ninguém gosta de ficar esperando."
 date:   2014-8-16 13:43:00
+redirect_from: /2014/08/16/introducao-a-otimizacao/
 ---
 
 Sites lentos prejudicam imensamente a experiência dos usuários. Afinal, ninguém gosta de ficar esperando.

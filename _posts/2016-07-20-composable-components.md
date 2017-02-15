@@ -6,6 +6,7 @@ as functions"
 image: /public/images/posts/composition/component-composition-hero.png
 date:   2016-07-20 17:31
 english: true
+redirect_from: /2016/07/20/composable-components/
 ---
 
 Function composition, in mathematics, is the application of a function over the

@@ -4,6 +4,7 @@ title: "ITCSS: pensando em uma arquitetura CSS"
 description: "O ITCCS é uma proposta de como criarmos uma boa arquitetura CSS, feito pelo Harry Roberts."
 date: 2014-11-19 02:44:00
 published: true
+redirect_from: /2014/11/19/ITCSS-uma-maneira-de-pensar-arquiteturas-css/
 ---
 
 

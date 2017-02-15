@@ -3,6 +3,7 @@ layout: post
 title: "Começando com React"
 description: "Uma pequena visão geral de como construir interfaces com React JS"
 date:   2015-01-17 01:44:00
+redirect_from: /2015/01/17/comecando-com-react/
 ---
 
 Traduzido de [The React Quick Start Guide](http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html), escrito por [Jack Callister](http://www.jackcallister.com/).
