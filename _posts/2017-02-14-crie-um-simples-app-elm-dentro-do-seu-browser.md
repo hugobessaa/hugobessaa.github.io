@@ -3,6 +3,7 @@ layout: post
 title: "Crie um simples app Elm dentro do seu browser"
 description: "Usando o site ellie-app.com, você pode criar um app Elm sem ter
 que instalar nada no seu dispositivo"
+image: /public/images/posts/crie-um-simples-app-elm/hero.png
 date:   2017-02-14 19:09:00
 favorite: true
 ---
