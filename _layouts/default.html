@@ -4,6 +4,9 @@
 <body class='sans-serif'>
   <div class='mw7 center'>
     {{content}}
+    {% if page.comments %}
+      {% include _comments.html %}
+    {% endif %}
   </div>
   {% include _footer.html %}
 </body>
