@@ -48,6 +48,7 @@
 
 .post code {
   white-space: pre-wrap;
+  padding: 0 4px;
 }
 
 .post code,
