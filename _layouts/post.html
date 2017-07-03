@@ -3,27 +3,29 @@ layout: default
 ---
 
 <article>
-  <header class='black pa3'>
-    <div class='mb4'>
-      <h2 class='f4 di'>
-        <a class='link black dim' href='{{site.url}}/'>
-          Hugo Bessa 👨🏻‍💻
-        </a>
-      </h2>
-    </div>
-    <div class='mb2'>
-      <h1 class='f3 di'>
-        <a class='link blue dim' href='{{site.url}}{{page.url}}'>
-          {{page.title}}
-        </a>
-      </h1>
-    </div>
-    <div>
-      <time class="di mid-gray" datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%d/%m/%Y" }}</time>
+  <header class='bg-black gray pa3'>
+    <div class='ph3 mw7 center'>
+      <div class='mb5'>
+        <h2 class='f4 di'>
+          <a class='link gray dim' href='{{site.url}}/'>
+            Hugo Bessa
+          </a>
+        </h2>
+      </div>
+      <div class='mb2'>
+        <h1 class='f1 ma0'>
+          <a class='link white dim' href='{{site.url}}{{page.url}}'>
+            {{page.title}}
+          </a>
+        </h1>
+      </div>
+      <div>
+        <time class="white" datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%d/%m/%Y" }}</time>
+      </div>
     </div>
   </header>
 
-  <div class='pa3 post'>
+  <div class='pa3 post mw7 center'>
     {{ content }}
   </div>
 </article>
