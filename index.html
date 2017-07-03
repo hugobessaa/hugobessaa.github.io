@@ -2,112 +2,43 @@
 layout: default
 ---
 
-<header class='white ph3 pt7 pb2 cover bg-right' style='background-image: url("{{site.baseurl}}/public/images/hero.jpg")'>
+<header class='white ph3 pt7 pb3 cover bg-right' style='background-image: url("{{site.baseurl}}/public/images/hero.jpg")'>
   <div class='mw7 center'>
-    <h1 class='f1 ma0'>Hugo Bessa</h1>
-    <h2 class='f3'>Desenvolvedor front-end com foco em simplicidade.</h2>
+    <h1 class='f-subheadline ma0'>Hugo Bessa</h1>
+    <h2 class='f3 mb3'>Desenvolvedor front-end com foco em simplicidade.</h2>
   </div>
 </header>
 
-<section class="pa3 mt3">
-  <header class='mb3'>
-    <h2 class='uppercase'>Palestras 🎙</h2>
-  </header>
+<section class='ph3 pt5 pv3 bg-black gray'>
+  <div class='mw7 center'>
+    <header>
+      <h2 class='f-subheadline ma0 gray'>Artigos</h2>
+    </header>
 
-  <div class="light-silver w4">Próximas</div>
-
-  <ul class="list pa0 ma0">
-    <li class="pv3 flex flex-column flex-row-ns items-center-ns">
-      <div class="w4 h2 w3-ns h3-ns pa0-ns br2 flex flex-column-ns items-center justify-center bg-blue white">
-        <div class="f3-ns b">01</div>
-        <div class="f6-ns pl1 pl0-ns">Julho</div>
-      </div>
-
-      <div class="flex-auto flex flex-column pl3-ns">
-        <div class="f3 b mv1">Webapps confiáveis com Elm</div>
-        <div class="mb1">
-          <a class="underline blue dim" href="http://www.frontinsampa.com.br">Frontinsampa 2017</a>
-          <span class="gray">(São Paulo, Brasil)</span>
-        </div>
-      </div>
-    </li>
-  </ul>
-
-  <div class="light-silver w4">Anteriores</div>
-
-  <ul class="list pa0 ma0">
-    <li class="pv3 flex flex-column flex-row-ns items-center-ns">
-      <div class="w4 h2 w3-ns h3-ns pa0-ns br2 flex flex-column-ns items-center justify-center bg-light-silver white">
-        <div class="f3-ns b">23</div>
-        <div class="f6-ns pl1 pl0-ns">Março</div>
-      </div>
-
-      <div class="flex-auto flex flex-column pl3-ns">
-        <div class="f3 mv1">Elm, pra que te quero?</div>
-        <div class="mb1">
-          <a class="underline blue dim" href="https://www.meetup.com/Elm-sp/">Elm-sp</a>
-          <span class="gray">(São Paulo, Brasil)</span>
-        </div>
-        <ul class="list pa0 ma0">
-          <li>
-            <a class="underline blue" href="{{site.baseurl}}/elm-pra-que-te-quero">
-              Slides
-            </a>
-          </li>
-        </ul>
-      </div>
-    </li>
-
-    <li class="pv3 flex flex-column flex-row-ns items-center-ns">
-      <div class="w4 h2 w3-ns h3-ns pa0-ns br2 flex flex-column-ns items-center justify-center bg-light-silver white">
-        <div class="f3-ns b">08</div>
-        <div class="f6-ns pl1 pl0-ns">Março</div>
-      </div>
-
-      <div class="flex-auto flex flex-column pl3-ns">
-        <div class="f3 mv1">Elm, pra que te quero?</div>
-        <div class="mb1">
-          <a class="underline blue dim" href="https://www.meetup.com/Javascript-SP/">Javascript-SP</a>
-          <span class="gray">(São Paulo, Brasil)</span>
-        </div>
-        <ul class="list pa0 ma0">
-          <li>
-            <a class="underline blue" href="{{site.baseurl}}/elm-pra-que-te-quero">
-              Slides
-            </a>
-          </li>
-        </ul>
-      </div>
-    </li>
-  </ul>
-</section>
-
-<section class='black pa3 mt3'>
-  <header class='mb3'>
-    <h2 class='uppercase'>Artigos ✏️</h2>
-  </header>
-
-  <ul class='list ma0 pa0'>
-    {% for post in site.posts %}
-      <li class='mb4'>
-        <article class=''>
-          <h3 class='f4 normal'>
-            <a class='link blue dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
-            {% if post.favorite %}⚡️{% endif %}
-          </h3>
-        </article>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<footer class='black pa3'>
-  <div class='mb3'>
-    <h2 class='f3'>Contato ✉️</h2>
+    <ul class='list ma0 pa0'>
+      {% for post in site.posts %}
+        <li class='pv3'>
+          <article class=''>
+            <h3 class='f4 normal gray ma0'>
+              <a class='link gray b dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
+              {% if post.favorite %}★{% endif %}
+            </h3>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
+</section>
 
-  <ul class='list ma0 pa0'>
-    <li class='mb2'>https://twitter.com/hugobessaa</li>
-    <li>eu@hugobessa.com.br</li>
-  </ul>
+<footer class='ph3 pt5 pb3 bg-black gray'>
+  <div class='mw7 center'>
+    <div class='mb3'>
+      <h2 class='f-subheadline ma0 gray'>Contato</h2>
+    </div>
+
+    <ul class='list ma0 pa0'>
+      <li class='pv3'><a class='link dim gray' href='https://twitter.com/hugobessaa'>@hugobessaaa</a></li>
+      <li class='pv3'>eu@hugobessa.com.br</li>
+    </ul>
+  </div>
 </footer>
