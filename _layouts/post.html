@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article>
-  <header class='bg-black gray pa3'>
+  <header class='pa3'>
     <div class='mw7 center'>
       <div class='mb5'>
         <h2 class='f4 di'>
@@ -14,13 +14,13 @@ layout: default
       </div>
       <div class='mb2'>
         <h1 class='f2 f1-ns ma0'>
-          <a class='link white dim' href='{{site.url}}{{page.url}}'>
+          <a class='link black dim' href='{{site.url}}{{page.url}}'>
             {{page.title}}
           </a>
         </h1>
       </div>
       <div>
-        <time class="white" datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%d/%m/%Y" }}</time>
+        <time class="black" datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%d/%m/%Y" }}</time>
       </div>
     </div>
   </header>
