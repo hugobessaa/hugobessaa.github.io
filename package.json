@@ -12,6 +12,7 @@
     "watch": "^1.0.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.23.6",
     "tachyons-cli": "^1.0.10"
   },
   "scripts": {

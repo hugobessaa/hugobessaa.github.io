@@ -2,43 +2,37 @@
 layout: default
 ---
 
-<header class='white ph3 pt3 pb3 bg-black'>
-  <div class='mw7 center'>
-    <h1 class='f-subheadline-ns f1 ma0'>Hugo Bessa</h1>
-    <h2 class='f3 mb3'>Desenvolvedor front-end com foco em simplicidade.</h2>
-  </div>
+<header class='mw7 center pa3'>
+  <h1 class='f-headline-ns f1 ma0 ttu lh-solid'>
+    Oi, meu nome é <span class='green'>Hugo</span> e essas são as coisas que eu criei
+  </h1>
 </header>
 
-<section class='ph3 pt5 pv3 bg-black gray'>
-  <div class='mw7 center'>
-    <header>
-      <h2 class='f-subheadline ma0 gray'>Artigos</h2>
-    </header>
+<section class='mw7 center ph3 pt5 pv3'>
+  <h3 class='f2 ttu ma0 pv2 green'>Artigos</h3>
 
-    <ul class='list ma0 pa0'>
-      {% for post in site.posts %}
-        <li class='pv3'>
+  <ul class='list ma0 pa0'>
+    {% for post in site.posts %}
+      {% if post.favorite %}
+        <li class='pv2'>
           <article class=''>
-            <h3 class='f4 normal gray ma0'>
-              <a class='link gray b dim' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
-              {% if post.favorite %}★{% endif %}
+            <h3 class='f5 normal dark-gray ma0'>
+              <a class='link dark-gray b' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
             </h3>
           </article>
         </li>
-      {% endfor %}
-    </ul>
-  </div>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </section>
 
-<footer class='ph3 pt5 pb3 bg-black gray'>
-  <div class='mw7 center'>
-    <div class='mb3'>
-      <h2 class='f-subheadline ma0 gray'>Contato</h2>
-    </div>
+<footer class='mw7 center ph3 pt5 pb3'>
+  <h2 class='f2 ttu ma0 pv2 green'>Contato</h2>
 
-    <ul class='list ma0 pa0'>
-      <li class='pv3'><a class='link dim gray' href='https://twitter.com/hugobessaa'>@hugobessaaa</a></li>
-      <li class='pv3'>eu@hugobessa.com.br</li>
-    </ul>
-  </div>
+  <ul class='list ma0 pa0'>
+    <li class='pv2'>
+      <a class='link dark-gray' href='https://twitter.com/hugobessaa'>@hugobessaa</a>
+    </li>
+    <li class='pv2 dark-gray'>eu@hugobessa.com.br</li>
+  </ul>
 </footer>
