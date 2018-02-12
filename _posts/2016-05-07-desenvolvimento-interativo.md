@@ -22,7 +22,7 @@ para permitir que eu passe mais tempo focado nestes detalhes sem prejudicar o
 projeto. E, agora, acredito que encontrei uma ótima forma de desenvolver
 interfaces.
 
-### desenvolvimento interativo
+### Desenvolvimento interativo
 
 Se as interfaces que produzimos são interativas e fluidas, por que nosso
 processo de desenvolvimento seria diferente? Quanto menor o tempo de feedback
@@ -42,7 +42,7 @@ Quando comecei a utilizar ClojureScript, a coisa que mais me chamou atenção fo
 o foco da comunidade em criar ferramentas que suportam o desenvolvimento
 interativo. Isto representou uma mudança bem grande em como crio e trabalho.
 
-### fluxo
+### Fluxo
 
 Com o suporte do desenvolvimento interativo, o meu fluxo de trabalho mudou
 bastante. Antes eu passava um bom tempo escrevendo e imaginando como cada
@@ -68,7 +68,7 @@ desenvolvimento front-end. Mantendo o estado da aplicação é possível testar
 rapidamente as diversas formas que um componente pode ser aplicado e corrigir
 bugs que acontecem em estados específicos da aplicação.
 
-### editor
+### Editor
 
 Não é novidade que usar um ótimo editor de texto ou IDE para desenvolver uma
 aplicação é muito importante. Esta é, afinal, a ferramenta na qual você
@@ -86,7 +86,7 @@ efeitos colaterais não controlados não se adapta bem nesse ambiente. Na minha
 experiência, forçar a escrita de código "recarregável" só me ajudou a manter
 toda a aplicação mais confiável e testável.
 
-### referências externas
+### Referências externas
 
 Este artigo não explora a fundo cada ferramenta. Logo, listo algumas referências
 externas que podem te ajudar a conhecer mais e aplicar o desenvolvimento
