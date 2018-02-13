@@ -4,12 +4,14 @@
 }
 
 .post a {
-  color: #357edd;
+  color: #000;
+  text-decoration: none;
+  background: linear-gradient(to bottom, transparent 65%, #9EEBCe 0) center center/100% 100% no-repeat;
 }
 
 .post a:hover,
 .post a:focus {
-  text-decoration: underline;
+  background-image: linear-gradient(to bottom, transparent 0%, #9EEBCe 0)
 }
 
 .post a strong {

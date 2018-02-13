@@ -892,8 +892,8 @@ img { max-width: 100%; }
 .order-8 { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
 .order-last { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
 .post { font-size: 1.2rem; line-height: 1.5; }
-.post a { color: #357edd; }
-.post a:hover, .post a:focus { text-decoration: underline; }
+.post a { color: #000; text-decoration: none; background: -webkit-linear-gradient( top, transparent 65%, #9eebce 0 ) center center/100% 100% no-repeat; background: linear-gradient( to bottom, transparent 65%, #9eebce 0 ) center center/100% 100% no-repeat; }
+.post a:hover, .post a:focus { background-image: -webkit-linear-gradient( top, transparent 0%, #9eebce 0 ); background-image: linear-gradient( to bottom, transparent 0%, #9eebce 0 ); }
 .post a strong { color: inherit; }
 .post img { display: block; max-width: 100%; margin-bottom: 1rem; border-radius: 0; }
 .post table { margin-bottom: 1rem; width: 100%; font-size: 85%; border: 1px solid #e5e5e5; border-collapse: collapse; }
