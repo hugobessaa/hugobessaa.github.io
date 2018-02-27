@@ -3,15 +3,18 @@
   line-height: 1.5;
 }
 
-.post a {
+.post a,
+.hugo-link {
   color: #000;
   text-decoration: none;
-  background: linear-gradient(to bottom, transparent 65%, #9EEBCe 0) center center/100% 100% no-repeat;
+  background: linear-gradient(to bottom, transparent 70%, #FFD700 0) center center/100% 100% no-repeat;
 }
 
 .post a:hover,
-.post a:focus {
-  background-image: linear-gradient(to bottom, transparent 0%, #9EEBCe 0)
+.post a:focus,
+.hugo-link:hover,
+.hugo-link:focus {
+  background-image: linear-gradient(to bottom, transparent 0%, #FFD700 0)
 }
 
 .post a strong {
