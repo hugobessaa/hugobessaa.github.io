@@ -9,6 +9,22 @@ layout: default
 </header>
 
 <section class='mw7 center ph3 pt5 pv3'>
+  <h3 class='f6 ma0 pv2 tracked ttu'>Diário</h3>
+
+  <ul class='list ma0 pa0'>
+    {% for post in site.diario %}
+      <li class='pv2'>
+        <article class=''>
+          <h3 class='f5 normal ma0'>
+            <a class='hugo-link' href='{{site.url}}{{post.url}}'>{{ post.title }}</a>
+          </h3>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class='mw7 center ph3 pt5 pv3'>
   <h3 class='f6 ma0 pv2 tracked ttu'>Artigos</h3>
 
   <ul class='list ma0 pa0'>

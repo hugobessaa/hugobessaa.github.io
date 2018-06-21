@@ -905,6 +905,7 @@ img { max-width: 100%; }
 .post .highlight { padding: 1rem; margin-bottom: 1rem; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .post pre.highlight { overflow-x: auto; word-break: initial; }
 .post pre.highlight * { word-break: initial; }
+.post blockquote { padding: 16px; background: #eee; margin-left: 0; margin-right: 0; font-style: italic; }
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #999; }
 /* Comment */

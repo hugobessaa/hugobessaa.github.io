@@ -9,6 +9,11 @@ github_username:  hugobessaa
 language: "pt-br"
 permalink: /:title/
 
+collections:
+  diario:
+    permalink: /:collection/:title
+    output: true
+
 # Build settings
 markdown: kramdown
 gems:

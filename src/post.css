@@ -74,3 +74,11 @@
 .post pre.highlight * {
   word-break: initial;
 }
+
+.post blockquote {
+  padding: 16px;
+  background: #eee;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+}
