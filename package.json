@@ -21,8 +21,8 @@
     "build:css": "tachyons src/styles.css > css/styles.css",
     "build:minify": "tachyons src/styles.css -m > css/styles.min.css",
     "build:watch": "watch 'npm run build' ./src/",
-    "jekyll:serve": "jekyll serve",
-    "jekyll:build": "jekyll build",
+    "jekyll:serve": "bundle exec jekyll serve",
+    "jekyll:build": "bundle exec jekyll build",
     "browser-sync": "browser-sync start --proxy localhost:4000 --files=./_site/**/* --reload-delay=300"
   },
   "author": "Hugo Bessa <eu@hugobessa.com.br>",
