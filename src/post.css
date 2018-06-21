@@ -6,15 +6,7 @@
 .post a,
 .hugo-link {
   color: #000;
-  text-decoration: none;
-  background: linear-gradient(to bottom, transparent 70%, #FFD700 0) center center/100% 100% no-repeat;
-}
-
-.post a:hover,
-.post a:focus,
-.hugo-link:hover,
-.hugo-link:focus {
-  background-image: linear-gradient(to bottom, transparent 0%, #FFD700 0)
+  font-weight: 600
 }
 
 .post a strong {
