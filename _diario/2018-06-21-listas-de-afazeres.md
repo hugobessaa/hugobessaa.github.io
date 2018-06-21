@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Listas de afazeres"
-date:   2015-01-17 10:33:00
+date:   2018-06-21 10:33:00
 ---
 
 Ultimamente percebi que trabalho muito melhor quando eu tenho uma lista do
