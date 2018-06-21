@@ -14,8 +14,8 @@ me concentrar.
 
 Este trecho de ["The Effective Engineer"](http://www.effectiveengineer.com/)
 (página 59) me fez analisar um pouco como eu estava
-trabalhando. Cheguei a conclusão que eu estava usando meu cérebro muito como um
-"banco de memórias" em vez de um "processador". Analisar uma tarefa, dividí-la
+onclusão que eu estava usando meu cérebro muito como um
+"banco de memórias" em vez de um "processador". Analisar uma tarefa, dividi-la
 em afazeres pequenos e ir processá-los um por um.
 
 Parece simples, mas nestes últimos dias já consegui encarar grandes tarefas de
